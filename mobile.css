@@ -1,0 +1,54 @@
+/* sectio-first */
+
+#first{
+    flex-direction: column;
+    height: 550px;
+    margin: 0;
+    width: 100%;
+}
+#first #box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#box1 h1{
+    font-size: 40px;    
+}
+#first #box2{
+    /* height: 20%; */
+    width: 100%;
+}
+#first #box2 .ratecard{
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 12px;
+}
+#first #box2 .ratecard .text{
+    text-align: center;
+}
+
+/* section-second */
+
+#second{
+    flex-direction: column;
+    height: 900px;
+
+}
+#second .box{
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 5px;
+    /* position: static; */
+}
+#second .box .info{
+    padding: 10px;
+}
